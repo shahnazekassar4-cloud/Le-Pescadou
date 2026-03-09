@@ -6,7 +6,7 @@ export function ComposantCoordonnees(props: ComposantCoordonneesProps) {
   return (
     <div className="flex flex-row items-center gap-3">
       <div> {coordonnees.icone}</div>
-      <div className="text-xs"> {coordonnees.info}</div>
+      <div className="text-[14px]"> {coordonnees.info}</div>
     </div>
   );
 }

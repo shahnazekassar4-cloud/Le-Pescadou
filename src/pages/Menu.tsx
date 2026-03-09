@@ -16,7 +16,7 @@ export default function Menu() {
     <div className="w-full">
       <div className="sticky top-0 bg-white z-1">
         <Head />
-        <div className="md:justify-center w-full flex gap-3 overflow-auto py-3 shadow-md px-3 -mt-5">
+        <div className="font-semibold md:justify-center w-full flex gap-3 overflow-auto py-3 shadow-md px-3 -mt-5">
           {listeCategories.map((categorie) => {
             return (
               <button
@@ -42,14 +42,15 @@ export default function Menu() {
         <div className="m-5 text-xs italic shadow-sm rounded-xl p-2">
           {selectedCategorie!.descriptionCategorie}
         </div>
-        {listeProduits
-          .filter((produit: typeProduit) => {
-            return produit.idCategorie === selectedCategorieId;
-          })
-          .map((produit: typeProduit) => {
-            return <ComposantProduit produit={produit} />;
-          })}
-        <div className="h-20"></div>
+        <div className="mb-20">
+          {listeProduits
+            .filter((produit: typeProduit) => {
+              return produit.idCategorie === selectedCategorieId;
+            })
+            .map((produit: typeProduit) => {
+              return <ComposantProduit produit={produit} />;
+            })}
+        </div>
       </div>
       <div className="fixed bottom-8 right-0 left-0">
         <ComposantCommander />
