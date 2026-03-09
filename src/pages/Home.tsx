@@ -5,7 +5,7 @@ import { ComposantCoordonnees } from "../composants/ComposantCoordonnees";
 import { Head } from "../composants/Head";
 import { ComposantCommander } from "../composants/ComposantCommander";
 import { ComposantReseau } from "../composants/ComposantReaseau";
-import { listeReseau, type typeReaseau } from "../listes/listeReseau";
+import { listeReseau, type typeReseau } from "../listes/listeReseau";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
 
           <div className="gap-5 flex">
-            {listeReseau.map((reseau: typeReaseau) => {
+            {listeReseau.map((reseau: typeReseau) => {
               return (
                 <ComposantReseau
                   reseau={{

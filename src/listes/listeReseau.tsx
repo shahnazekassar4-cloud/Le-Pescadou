@@ -1,9 +1,9 @@
-export type typeReaseau = {
+export type typeReseau = {
   icone: string;
   lien: string;
 };
 
-export const listeReseau: typereaseau[] = [
+export const listeReseau: typeReseau[] = [
   {
     icone: "/facebook.png",
     lien: "https://www.facebook.com/LePescadouMarsaPlage/?locale=fr_FR",

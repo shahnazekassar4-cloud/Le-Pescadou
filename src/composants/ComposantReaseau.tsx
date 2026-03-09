@@ -1,8 +1,8 @@
-import type { typeReaseau } from "../listes/listeReseau";
+import type { typeReseau } from "../listes/listeReseau";
 
-type ComposantLienProps = { reseau: typeReaseau };
+type ComposantReaseauProps = { reseau: typeReseau };
 
-export function ComposantReseau(props: ComposantLienProps) {
+export function ComposantReseau(props: ComposantReaseauProps) {
   const { reseau } = props;
   return (
     <a href={reseau.lien} target="_blank">
