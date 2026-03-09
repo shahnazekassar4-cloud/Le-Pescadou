@@ -15,9 +15,8 @@ export const listeCoordonnees: typeCoordonnees[] = [
     icone: <MapPin size={13} color="#7E0000" />,
     info: "Sidi Daoud, 32 rue Elarabi",
   },
-  // hello
   {
     icone: <Clock size={13} color="#7E0000" />,
-    info: "Du lundi au dimanche de 8h à 17h",
+    info: "Du lundi au dimanche de 8h à 20h",
   },
 ];
