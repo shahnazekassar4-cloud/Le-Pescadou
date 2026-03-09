@@ -13,10 +13,10 @@ export default function Menu() {
     (categorie) => categorie.id === selectedCategorieId,
   );
   return (
-    <div>
+    <div className="w-full">
       <div className="sticky top-0 bg-white z-1">
         <Head />
-        <div className="flex gap-3 overflow-auto w-screen py-3 shadow-md px-3 -mt-5">
+        <div className="md:justify-center w-full flex gap-3 overflow-auto py-3 shadow-md px-3 -mt-5">
           {listeCategories.map((categorie) => {
             return (
               <button
@@ -38,7 +38,7 @@ export default function Menu() {
         </div>
       </div>
 
-      <div className="overflow-auto">
+      <div className="overflow-auto md:mx-60">
         <div className="m-5 text-xs italic shadow-sm rounded-xl p-2">
           {selectedCategorie!.descriptionCategorie}
         </div>
