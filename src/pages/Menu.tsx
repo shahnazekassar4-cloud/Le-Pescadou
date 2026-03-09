@@ -8,7 +8,7 @@ import { useState } from "react";
 import { ComposantCommander } from "../composants/ComposantCommander";
 
 export default function Menu() {
-  const [selectedCategorieId, setSelectedCategorieId] = useState<number>(1);
+  const [selectedCategorieId, setSelectedCategorieId] = useState<number>(2);
   const selectedCategorie = listeCategories.find(
     (categorie) => categorie.id === selectedCategorieId,
   );
