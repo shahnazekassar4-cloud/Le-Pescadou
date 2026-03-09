@@ -6,53 +6,58 @@ export type typeCategorie = {
 
 export const listeCategories: typeCategorie[] = [
   {
-    id: 1,
-    nomCategorie: "Sauces Maison",
-    descriptionCategorie: "Sauces artisanales en bocaux",
-  },
-  {
     id: 2,
-    nomCategorie: "Produits de la Mer",
+    nomCategorie: "Produits Mer",
     descriptionCategorie: "Produits frais et préparations de la mer",
   },
   {
-    id: 3,
-    nomCategorie: "Plateaux",
-    descriptionCategorie: "Plateaux charcuterie, fromage et fruits de mer",
+    id: 9,
+    nomCategorie: "Volaille",
+    descriptionCategorie: "Produits de volaille",
   },
   {
-    id: 4,
-    nomCategorie: "Plats Cuisinés",
-    descriptionCategorie: "Plats cuisinés en bocaux ou traiteur",
+    id: 10,
+    nomCategorie: "Porc",
+    descriptionCategorie: "Produits de porc et charcuterie",
   },
-  {
-    id: 5,
-    nomCategorie: "Soupes",
-    descriptionCategorie: "Soupes artisanales longue conservation",
-  },
+
   {
     id: 6,
     nomCategorie: "Rillettes",
-    descriptionCategorie: "Rillettes en bocaux",
+    descriptionCategorie: "Bocaux de 220gr.",
   },
   {
     id: 7,
     nomCategorie: "Tartinothèque",
-    descriptionCategorie: "Tartinables et crèmes apéritives",
+    descriptionCategorie: "Tartinables et crèmes apéritives. Bocaux de 220gr.",
   },
   {
     id: 8,
     nomCategorie: "Kif-Apéro",
     descriptionCategorie: "Produits pour l'apéritif",
   },
+
   {
-    id: 9,
-    nomCategorie: "Produits Terre - Volaille",
-    descriptionCategorie: "Produits de volaille",
+    id: 3,
+    nomCategorie: "Plateaux",
+    descriptionCategorie:
+      "Plateaux charcuterie, fromage et fruits de mer. Contactez-nous pour avoir une estimation prix",
   },
   {
-    id: 10,
-    nomCategorie: "Produits Terre - Porc",
-    descriptionCategorie: "Produits de porc et charcuterie",
+    id: 4,
+    nomCategorie: "Plats Cuisinés",
+    descriptionCategorie:
+      "Plats cuisinés en bocaux ou traiteur. Contactez-nous pour avoir une estimation prix",
+  },
+  {
+    id: 5,
+    nomCategorie: "Soupes",
+    descriptionCategorie:
+      "Soupes artisanales longue conservation en bouteille de 1L.",
+  },
+  {
+    id: 1,
+    nomCategorie: "Sauces",
+    descriptionCategorie: "Sauces artisanales en bocaux",
   },
 ];
