@@ -48,13 +48,13 @@ export default function Home() {
               );
             })}
           </div>
+          <p className="text-[10px] mt-10 mb-2 md:mb-0">
+            Site développé par{" "}
+            <a href="https://shahnaze-kassar.web.app/">
+              <u>Shahnaze Kassar </u>
+            </a>
+          </p>
         </div>{" "}
-        <p className="text-[10px] mt-10 fixed bottom-4 right-0 left-0">
-          Site développé par{" "}
-          <a href="https://shahnaze-kassar.web.app/">
-            <u>Shahnaze Kassar </u>
-          </a>
-        </p>
       </div>
     </div>
   );
