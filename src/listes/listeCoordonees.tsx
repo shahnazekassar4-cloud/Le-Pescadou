@@ -13,7 +13,7 @@ export const listeCoordonnees: typeCoordonnees[] = [
   },
   {
     icone: <MapPin size={13} color="#7E0000" />,
-    info: "La Marsa, cité les pins",
+    info: "Sidi Daoud, 32 rue Elarabi",
   },
   {
     icone: <Clock size={13} color="#7E0000" />,
