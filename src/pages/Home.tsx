@@ -6,8 +6,18 @@ import { Head } from "../composants/Head";
 import { ComposantCommander } from "../composants/ComposantCommander";
 import { ComposantReseau } from "../composants/ComposantReaseau";
 import { listeReseau, type typeReseau } from "../listes/listeReseau";
+import fetchJSON from "../backend/fetchJSON";
 
 export default function Home() {
+  const handleTest = async () => {
+    const reponse = await fetchJSON({
+      url: "produits", //ca va tapper dans http:localhost:1337/api/produits | tu peux aller voir dans fetchJSON si tu veux voir comment ca marche
+      method: "GET",
+    });
+
+    console.log("réponse du serveur:", reponse);
+  };
+
   return (
     <div className="flex flex-col items-center">
       <Head />
@@ -56,6 +66,14 @@ export default function Home() {
           </p>
         </div>{" "}
       </div>
+      <button
+        onClick={handleTest}
+        className="border border-red-900 bg-red-900 py-2 px-5 rounded-4xl text-white 
+        hover:bg-transparent hover:text-red-900 hover:cursor-pointer
+        m-2.5"
+      >
+        TEST DE CONNECTION
+      </button>
     </div>
   );
 }
