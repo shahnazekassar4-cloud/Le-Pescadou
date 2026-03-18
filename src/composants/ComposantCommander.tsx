@@ -1,8 +1,10 @@
 import Popup from "./Popup";
 import { useState } from "react";
 import { ChildrenCommander } from "./ChildrenCommander";
-//
-export function ComposantCommander() {
+
+type ComposantCommanderProps = { style: string };
+
+export function ComposantCommander(props: ComposantCommanderProps) {
   const [popupVisible, setPopupVisible] = useState<boolean>(false);
   const openPopup = () => {
     setPopupVisible(true);
@@ -12,11 +14,7 @@ export function ComposantCommander() {
   };
   return (
     <div>
-      <button
-        onClick={openPopup}
-        className="border border-red-900 bg-red-900 py-2 px-5 rounded-4xl text-white 
-      hover:bg-white hover:text-red-900 hover:cursor-pointer"
-      >
+      <button onClick={openPopup} className={props.style}>
         COMMANDER
       </button>
       <Popup

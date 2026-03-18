@@ -53,7 +53,11 @@ export default function Menu() {
         </div>
       </div>
       <div className="fixed bottom-8 right-0 left-0">
-        <ComposantCommander />
+        <ComposantCommander
+          style={
+            "border-2 border-red-900 bg-red-900 py-2 px-5 rounded-4xl text-white hover:bg-white hover:text-red-900 hover:cursor-pointer"
+          }
+        />
       </div>
     </div>
   );
