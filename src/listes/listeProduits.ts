@@ -136,14 +136,14 @@ export const listeProduits: typeProduit[] = [
     nomProduit: "Langoustes congelées",
     descriptionProduit: "",
     imageProduit: defautImg,
-    prixProduit: "120 dt/kg",
+    prixProduit: "200 dt/kg",
   },
   {
     idCategorie: 2,
     nomProduit: "Cigales congelées",
     descriptionProduit: "",
     imageProduit: defautImg,
-    prixProduit: "120 dt/kg",
+    prixProduit: "180 dt/kg",
   },
   {
     idCategorie: 2,
@@ -157,7 +157,7 @@ export const listeProduits: typeProduit[] = [
     nomProduit: "Crevette Rouge de Mazzara",
     descriptionProduit: "",
     imageProduit: defautImg,
-    prixProduit: "200 dt/kg",
+    prixProduit: "260 dt/kg",
   },
   {
     idCategorie: 2,

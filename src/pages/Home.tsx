@@ -14,13 +14,16 @@ export default function Home() {
       <div className="md:flex md:gap-10">
         <img src="../devanture.JPG" className="md:w-160" />
         <div className="flex flex-col items-center md:w-80">
-          <div className="text-[14] my-5 md:mt-0 md:mb-5 italic mx-10">
+          <div className="text-[14px] my-5 md:mt-0 md:mb-5 italic mx-10">
             Le Pescadou vous propose une sélection de produits terre et mer de
-            qualité.
+            qualité. <br />
+            <a href="/video" className="text-red-900 text-[11px]">
+              <u>Cliquez pour voir la boutique</u>
+            </a>
           </div>
           <a
             href="/menu"
-            className="border border-red-900 bg-red-900 py-2 px-5 rounded-4xl text-white 
+            className="border-2 border-red-900 bg-red-900 py-2 px-5 rounded-4xl text-white 
         hover:bg-transparent hover:text-red-900 hover:cursor-pointer
         m-2.5"
           >
@@ -28,7 +31,11 @@ export default function Home() {
           </a>
           <div className="my-2.5">
             {" "}
-            <ComposantCommander />
+            <ComposantCommander
+              style={
+                "border-2 border-red-900 hover:bg-red-900 py-2 px-5 rounded-4xl hover:text-white bg-white text-red-900 hover:cursor-pointer"
+              }
+            />
           </div>
           <div className="m-5">
             {listeCoordonnees.map((coordonnees: typeCoordonnees) => {
