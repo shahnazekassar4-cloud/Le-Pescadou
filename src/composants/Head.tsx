@@ -1,4 +1,4 @@
-import { Home } from "lucide-react";
+import { Home, Menu } from "lucide-react";
 import { CircleUserRound } from "lucide-react";
 
 export function Head() {
@@ -12,6 +12,13 @@ export function Head() {
             className="hover:cursor-pointer md:size-10"
           />
         </a>
+        <a href="/menu">
+          <Menu
+            color="white"
+            strokeWidth={1}
+            className="hover:cursor-pointer md:size-10"
+          />
+        </a>
         <a href="/">
           <Home
             color="white"
@@ -20,7 +27,9 @@ export function Head() {
           />
         </a>
       </div>
-      <img src="../logoPescadou.png" className="w-60 md:w-100 m-5" />
+      <a href="/" className="hover:cursor-auto">
+        <img src="../logoPescadou.png" className="w-60 md:w-100 m-5" />
+      </a>
     </div>
   );
 }
