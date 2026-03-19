@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import KarimKassar from "./pages/KarimKassar";
-import { Test } from "./composants/Test";
+import Test from "./pages/Test";
 
 function App() {
   return (
