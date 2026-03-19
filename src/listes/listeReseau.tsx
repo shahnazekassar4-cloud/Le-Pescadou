@@ -10,7 +10,7 @@ export const listeReseau: typeReseau[] = [
   },
   {
     icone: "/instagram.png",
-    lien: "https://www.instagram.com/kassar_karim/?hl=fr",
+    lien: "https://www.instagram.com/le.pescadou/?hl=fr",
   },
   {
     icone: "/google.jpg",
