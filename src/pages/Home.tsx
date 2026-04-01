@@ -56,14 +56,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <a
-        href="/test"
-        className="border border-red-900 bg-red-900 py-2 px-5 rounded-4xl text-white 
-        hover:bg-transparent hover:text-red-900 hover:cursor-pointer
-        m-2.5"
-      >
-        TEST API
-      </a>
     </div>
   );
 }
