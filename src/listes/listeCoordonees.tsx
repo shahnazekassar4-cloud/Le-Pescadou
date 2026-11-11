@@ -1,4 +1,4 @@
-import { Clock, MapPin, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import type { ReactNode } from "react";
 
 export type typeCoordonnees = {
