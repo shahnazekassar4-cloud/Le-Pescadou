@@ -15,16 +15,16 @@ export const listeCoordonnees: typeCoordonnees[] = [
       </a>
     ),
   },
-  {
-    icone: <MapPin size={13} color="#7E0000" />,
-    info: (
-      <a href="https://maps.app.goo.gl/BwWJtsdZLpZ419Lk8" target="_blank">
-        <u>Sidi Daoud, 32 rue Elarabi</u>
-      </a>
-    ),
-  },
-  {
-    icone: <Clock size={13} color="#7E0000" />,
-    info: "Du lundi au dimanche de 8h à 20h",
-  },
+  // {
+  //   icone: <MapPin size={13} color="#7E0000" />,
+  //   info: (
+  //     <a href="https://maps.app.goo.gl/BwWJtsdZLpZ419Lk8" target="_blank">
+  //       <u>Sidi Daoud, 32 rue Elarabi</u>
+  //     </a>
+  //   ),
+  // },
+  // {
+  //   icone: <Clock size={13} color="#7E0000" />,
+  //   info: "Du lundi au dimanche de 8h à 20h",
+  // },
 ];
