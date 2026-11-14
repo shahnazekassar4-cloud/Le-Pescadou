@@ -12,7 +12,7 @@ export default function Home() {
     <div className="flex flex-col items-center">
       <Head />
       <div className="md:flex md:gap-10">
-        <img src="../new_couverture.jpeg" className="md:w-160" />
+        <img src="../couverture.jpeg" className="md:w-100" />
         <div className="flex flex-col items-center md:w-80">
           <div className="text-[14px] my-5 md:mt-0 md:mb-5 italic mx-10">
             Le Pescadou vous propose une sélection de produits terre et mer de
